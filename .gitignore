@@ -1,7 +1,21 @@
-node_modules
-dist
+# Dependencies
+node_modules/
+
+# Production
+dist/
+
+# Environment files
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 .env.*
 !.env.example
-.DS_Store
+
+# Logs
 *.log
+
+# System files
+.DS_Store
+Thumbs.db
