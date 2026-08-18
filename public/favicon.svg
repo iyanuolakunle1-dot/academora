@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="acadGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e" />
+      <stop offset="100%" stop-color="#042f2e" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#acadGrad)" />
+  <!-- Academic Cap -->
+  <polygon points="32,14 54,24 32,34 10,24" fill="url(#goldGrad)" />
+  <polygon points="18,29 18,44 32,50 46,44 46,29 32,35" fill="#f8fafc" fill-opacity="0.95" />
+  <!-- Tassel -->
+  <path d="M48 27 L51 38 L47 40 L45 38 Z" fill="#f59e0b" />
+  <circle cx="48" cy="27" r="2" fill="#d97706" />
+</svg>
